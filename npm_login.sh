@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-NPM_REGISTRY="https://nexus.infra-area1.com/repository/fortis-npm/"
-
 if [[ $1 != "-s" ]]; then
   if [ -z $NPM_REGISTRY ]; then
     echo -e "Registry: \c"
